@@ -1,5 +1,5 @@
 ---
-icon: note
+icon: home-fill
 tags: [guide]
 ---
 # Formatting
