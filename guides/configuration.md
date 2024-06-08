@@ -76,7 +76,12 @@ order: 900
 | Description                                                                   |
 |-------------------------------------------------------------------------------|
 | This disables or enables NSFW commands in the bot, by default it is disabled! |
-+++
+
++++ Reset Configurations
+
+| Description                                                                                                                           |
+|---------------------------------------------------------------------------------------------------------------------------------------|
+| This **DELETES** all data related to the config in that server. Only the `Setup Configurations` will be reset, not the other configs! |
 
 ### Setup Logging
 
@@ -105,3 +110,48 @@ order: 900
 |-------------------------------------------------------------------------------------------------------------------------------|
 | Logs related to voice channel activities, including join voice channel, move between voice channels, and leave voice channel. |
 +++
+
+### Setup Embed Fix
+
++++ Webhook Reply
+
+| Description                                                                                                                     |
+|---------------------------------------------------------------------------------------------------------------------------------|
+| This enables/disables where if the message will be deleted or if the bot will just do a thread! Default value being `Disabled`! |
+
++++ Twitter Fix
+
+| Description                                                                             |
+|-----------------------------------------------------------------------------------------|
+| This enables/disables where if Twitter links get fixed! Default value being `Disabled`! |
+
++++ X Fix
+
+| Description                                                                       |
+|-----------------------------------------------------------------------------------|
+| This enables/disables where if X links get fixed! Default value being `Disabled`! |
+
++++ Pixiv Fix
+
+| Description                                                                           |
+|---------------------------------------------------------------------------------------|
+| This enables/disables where if Pixiv links get fixed! Default value being `Disabled`! |
+
++++ TikTok Fix
+
+| Description                                                                            |
+|----------------------------------------------------------------------------------------|
+| This enables/disables where if TikTok links get fixed! Default value being `Disabled`! |
+
++++ Reddit Fix
+
+| Description                                                                            |
+|----------------------------------------------------------------------------------------|
+| This enables/disables where if Reddit links get fixed! Default value being `Disabled`! |
+
++++ Instagram Fix
+
+| Description                                                                               |
+|-------------------------------------------------------------------------------------------|
+| This enables/disables where if Instagram links get fixed! Default value being `Disabled`! |
+
