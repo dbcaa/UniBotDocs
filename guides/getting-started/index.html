@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.771134153092">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.771134318787">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.771134153092" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.771134318787" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.771134153092" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.771134318787" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.771134153092" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.771134318787" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -222,46 +222,46 @@ Example:</p>
         <span>Basic Setup</span>
     </h2>
 </doc-anchor-target>
-<p>UniBot in the future will have a dashboard so you can customize it without using commands!</p>
-<p>Now lets get started on how UniBot works and everything in it!</p>
-<p>Most of this documentation will be using / as the prefix, but remember it does support prefix so don&#x27;t get confused!</p>
+<p>In the future, UniBot will feature a dashboard, allowing you to customize it without the need for commands!</p>
+<p>Let&#x27;s dive into how UniBot operates and its various features!</p>
+<p>This documentation primarily uses <code v-pre>/</code> as the command prefix, but remember, UniBot supports custom prefixes, so don&#x27;t get confused!</p>
 <doc-anchor-target id="prefix">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#prefix">#</doc-anchor-trigger>
         <span>Prefix</span>
     </h3>
 </doc-anchor-target>
-<p>By default, UniBot&#x27;s prefix is <code v-pre>!</code> as well as <code v-pre>/</code> slash commands.
-To change UniBot&#x27;s prefix you need to run the command <code v-pre>!config</code> or <code v-pre>/config</code> in then you can read the embed it sends and you can configure multiple things inside of that one command!</p>
+<p>By default, UniBot&#x27;s command prefix is <code v-pre>!</code>, and it also supports <code v-pre>/</code> slash commands.
+To change UniBot&#x27;s prefix, execute the <code v-pre>!config</code> or <code v-pre>/config</code> command. The bot will then send an embed message that you can read and use to configure various settings!</p>
 <doc-anchor-target id="configurations">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#configurations">#</doc-anchor-trigger>
         <span>Configurations</span>
     </h3>
 </doc-anchor-target>
-<p>Inside of UniBot, there are multiple commands to configure multiple things, but the main command to configure almost everything is <code v-pre>/config</code>.</p>
-<p>For all of these setup features, you will need admin or be the owner of the server!</p>
+<p>UniBot offers multiple commands for configuring different aspects, but the primary command for most configurations is <code v-pre>/config</code>.</p>
+<p>To access these setup features, you must either be an admin or the server owner!</p>
 <doc-anchor-target id="modlogs">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#modlogs">#</doc-anchor-trigger>
         <span>Modlogs</span>
     </h3>
 </doc-anchor-target>
-<p>Modlogs will only log things UniBot does, this will NOT log what other bots do. To setup modlogs inside of UniBot, just run <code v-pre>/config</code>, then click <code v-pre>Setup Configurations</code>, then click <code v-pre>Mod Channel</code>, after you have done that, it will ask for what channel, just mention the channel you are wanting then UniBot will set it to be that channel!</p>
+<p>Modlogs only track actions performed by UniBot, not those performed by other bots. To set up modlogs with UniBot, run the <code v-pre>/config</code> command, click on <code v-pre>Setup Configurations</code>, and then click on <code v-pre>Mod Channel</code>. After that, it will prompt you to specify a channel. Simply mention the desired channel, and UniBot will set it as the modlog channel!</p>
 <doc-anchor-target id="logs">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#logs">#</doc-anchor-trigger>
         <span>Logs</span>
     </h3>
 </doc-anchor-target>
-<p>UniBot has a logging system to log everything that happens inside of your discord server! By default UniBot will have this disabled. To enable it you can do <code v-pre>/config</code>, then click <code v-pre>Setup Logging</code>, it explains what each thing is. Just like config, you can just click a button read what it does, then click the button to set it, it will ask for which channel, you just mention the channel and it sets it to be that channel for that logging category only! To reset the config, just do the previous steps but this time click <code v-pre>Config</code> and it will have a reset button in there!</p>
+<p>UniBot features a logging system that records all activities within your Discord server! By default, this feature is disabled. To enable it, run the <code v-pre>/config</code> command, click on <code v-pre>Setup Logging</code>, and follow the instructions. Just like with the config command, you can click a button, read its function, and then click the button to set it. It will ask for a channel, and once you mention the channel, it will set that channel for that specific logging category! To reset the config, repeat the previous steps but this time click on <code v-pre>Config</code>, and you&#x27;ll find a reset button there!</p>
 <doc-anchor-target id="join-role">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#join-role">#</doc-anchor-trigger>
         <span>Join Role</span>
     </h3>
 </doc-anchor-target>
-<p>UniBot has a join role feature, when a member joins they are given a role! You can set this up with using <code v-pre>/config</code>, then click <code v-pre>Setup Configurations</code> and then click <code v-pre>Join Role</code> then mention the role you want to be the join role!</p>
+<p>UniBot offers a join role feature, which assigns a role to members when they join! You can set this up by using the <code v-pre>/config</code> command, clicking on <code v-pre>Setup Configurations</code>, and then clicking on <code v-pre>Join Role</code>. Then, mention the role you want to assign to new members!</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-red-500"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -275,7 +275,7 @@ To change UniBot&#x27;s prefix you need to run the command <code v-pre>!config</
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Reminder</h5>
-<p>The bot cannot assign a role to a member if it lacks the <code v-pre>Manage Roles</code> permission. Additionally, the bot cannot assign a role that is higher in the hierarchy than its own highest role. Ensure that UniBot&#x27;s role is higher than the role you wish to assign to others, and that UniBot has the <code v-pre>Manage Roles</code> permission.</p>
+<p>The bot is unable to assign a role to a member if it doesn&#x27;t have the <code v-pre>Manage Roles</code> permission. Furthermore, it cannot assign a role that is higher in the hierarchy than its own highest role. Make sure that UniBot&#x27;s role is higher than the role you want to assign to others, and that UniBot has the <code v-pre>Manage Roles</code> permission.</p>
         </div>
     </div>
 </div>
