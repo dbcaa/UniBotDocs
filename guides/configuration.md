@@ -82,6 +82,7 @@ order: 900
 | Description                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | This **DELETES** all data related to the config in that server. Only the `Setup Configurations` will be reset, not the other configs! |
++++
 
 ### Setup Logging
 
