@@ -1,6 +1,5 @@
 ---
 icon: home-fill
-tags: [guide]
 ---
 # UniBot
 
