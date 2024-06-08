@@ -7,8 +7,11 @@ order: 1000
 A fully customizable, multi-purpose Discord bot. It has everything you will need inside of it! It's an all in one discord bot!
 
 ## Documentation
-
-Check out [Getting Started](/guides/getting-started) to get started with UniBot! All of these documents are best viewed on a computer or tablet!
+!!!info
+This documentation is still a work in progress, so some pages may be incomplete or missing.
+Also documents are **recommended** to be viewed on a desktop/laptop for the best experience.
+!!!
+Check out [Getting Started](/guides/getting-started) to get started with UniBot!
 
 ## Features
 
