@@ -28,9 +28,7 @@ Stream Alerts is a feature that allows you to set up alerts for when a streamer 
 | twitch remove<br>`Manage Guild`   | `!twitch remove` | Allows you to remove streamers from the notifications list!         |
 +++
 
-## Setup Stream Alerts
-
-### Setup Logging
+### Setup Stream Alerts
 
 +++ Twitch Add
 
