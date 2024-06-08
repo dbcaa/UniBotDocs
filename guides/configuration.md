@@ -161,4 +161,22 @@ order: 900
 | Description                                                                               |
 |-------------------------------------------------------------------------------------------|
 | This enables/disables where if Instagram links get fixed! Default value being `Disabled`! |
++++
+
+### Setup Welcome Configuration
++++ Coming Soon!
+
+| Description                  |
+|------------------------------|
+| This feature is coming soon! |
++++
+
+### Setup Leave Configuration
++++ Coming Soon!
+
+| Description                  |
+|------------------------------|
+| This feature is coming soon! |
++++
+
 
