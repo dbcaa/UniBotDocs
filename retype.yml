@@ -4,7 +4,7 @@ url: docs.uni-bot.xyz
 branding:
   title: UniBot Docs
   label: Docs
-  logo: /static/Unibot-NOBACK_fix
+  logo: /static/Unibot-NOBACK_fix.png
 links:
   - text: Home
     link: https://uni-bot.xyz
