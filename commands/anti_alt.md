@@ -1,6 +1,6 @@
 ---
 icon: /static/antialt-icon.png
-order: 900
+order: 800
 ---
 # Anti Alt System
 
