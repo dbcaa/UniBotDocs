@@ -1,6 +1,6 @@
 ---
 icon: key
-order: 1000
+order: 900
 ---
 # Configuration
 
