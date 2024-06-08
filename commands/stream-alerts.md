@@ -30,19 +30,19 @@ Stream Alerts is a feature that allows you to set up alerts for when a streamer 
 
 ### Setup Stream Alerts
 
-+++ Twitch Add
++++ twitch add
 
 | Description                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | This adds a twitch user to the list, you will have to provide `twitch name`, `channel id` (where notifications go), and `live message`. There are buttons that will explain the Live Message placeholders! |
 
-+++ Twitch List
++++ twitch list
 
 | Description                                                                     |
 |---------------------------------------------------------------------------------|
 | This shows all members who are part of the twitch notifications in that server! |
 
-+++ Twitch Remove
++++ twitch remove
 
 | Description                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|
