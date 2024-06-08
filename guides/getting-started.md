@@ -3,7 +3,7 @@ icon: rocket
 ---
 # Getting Started
 !!!warning
-Do not actually type out < > [ ] ect.
+Do not actually type out `<` `>` `[` `]` ect.
 !!!
 
 !!!info
