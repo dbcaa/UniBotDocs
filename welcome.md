@@ -8,7 +8,7 @@ A fully customizable, multi-purpose Discord bot. It has everything you will need
 
 ## Documentation
 
-Check out [Getting Started](/guides/getting-started) to get started with UniBot!
+Check out [Getting Started](/guides/getting-started) to get started with UniBot! All of these documents are best viewed on a computer or tablet!
 
 ## Features
 
