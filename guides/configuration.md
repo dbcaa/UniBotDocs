@@ -20,6 +20,8 @@ order: 900
 | config<br>`Administrator`   | `!config`                             | Allows you to customize UniBot to suit your server's needs.                                              |
 +++
 
+![Config Command](/static/ConfigCommand.png)
+
 
 ### Setup Configurations
 
