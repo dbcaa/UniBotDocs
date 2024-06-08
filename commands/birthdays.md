@@ -1,5 +1,5 @@
 ---
-icon: /static/antialt-icon.png
+icon: /static/birthday-icon.png
 order: 800
 ---
 # Birthdays
