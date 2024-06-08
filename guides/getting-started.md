@@ -57,6 +57,6 @@ UniBot has a logging system to log everything that happens inside of your discor
 UniBot has a join role feature, when a member joins they are given a role! You can set this up with using `/config`, then click `Setup Configurations` and then click `Join Role` then mention the role you want to be the join role!
 
 !!!danger Reminder
-You can not add a role to a member if the bot does **NOT** have `Manage Roles` permission. It can not also add a role to a member if the role is higher than UniBot's highest role. Just make sure the role that UniBot has is above the role you want to give to others and make sure that it has `Manage Roles`.
+The bot cannot assign a role to a member if it lacks the `Manage Roles` permission. Additionally, the bot cannot assign a role that is higher in the hierarchy than its own highest role. Ensure that UniBot's role is higher than the role you wish to assign to others, and that UniBot has the `Manage Roles` permission.
 !!!
 
