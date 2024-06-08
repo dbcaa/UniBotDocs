@@ -26,6 +26,7 @@ Check out [Getting Started](/guides/getting-started) to get started with UniBot!
 ## Support
 
 Members and Staff can help you out in the [UniBot Official](https://discord.gg/unibot) Discord server!
+
 If you need to email us about anything, you can find all of our emails [here](https://uni-bot.xyz/staff).
 
 
