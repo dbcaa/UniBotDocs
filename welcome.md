@@ -1,6 +1,7 @@
 ---
 icon: home-fill
 tags: [guide]
+order: 2
 ---
 # Formatting
 
