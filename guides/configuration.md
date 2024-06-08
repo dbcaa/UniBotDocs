@@ -20,7 +20,7 @@ order: 900
 | config<br>`Administrator`   | `!config`                             | Allows you to customize UniBot to suit your server's needs.                                              |
 +++
 
-![Config Command](/static/ConfigCommand.png)
+![Config Command Example](/static/ConfigCommand.png)
 
 
 ### Setup Configurations
@@ -86,6 +86,9 @@ order: 900
 | This **DELETES** all data related to the config in that server. Only the `Setup Configurations` will be reset, not the other configs. |
 +++
 
+![Server Setup Example](/static/ServerSetup.png)
+
+
 ### Setup Logging
 
 
@@ -119,6 +122,8 @@ order: 900
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | This displays the full config for logging. You can also reset the config. This **DELETES** all data related to the config in that server. Only the `Setup Logging` will be reset, not the other configs.  |
 +++
+
+![Logging Setup Example](/static/LoggingSetup.png)
 
 ### Setup Embed Fix
 
@@ -164,6 +169,8 @@ order: 900
 |-------------------------------------------------------------------------------------------|
 | This enables/disables whether Instagram links get fixed! The default value is `Disabled`. |
 +++
+
+![Embed Fix Setup Example](/static/EmbedFixSetup.png)
 
 ### Setup Welcome Configuration
 +++ Coming Soon!
