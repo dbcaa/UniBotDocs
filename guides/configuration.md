@@ -12,7 +12,7 @@ order: 900
 | config<br>new_word          | `/config`                             | Lets you setup UniBot how you would like for your server!                                                |
 
 
-!!!+++ Prefix
++++ Prefix
 | Name                        | Example                               | Usage                                                                                                    |
 |-----------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------|
 | config<br>new_word          | `!config`                             | Lets you setup UniBot how you would like for your server!                                                |
