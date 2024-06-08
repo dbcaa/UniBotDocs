@@ -9,24 +9,24 @@
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Anti Alt System</title>
-    <meta name="title" content="Anti Alt System">
-    <meta name="description" content="The Anti Alt System is a feature designed to prevent users from creating multiple accounts to circumvent bans or restrictions.">
+    <title>Birthdays</title>
+    <meta name="title" content="Birthdays">
+    <meta name="description" content="The Birthdays feature enables you to set up birthday notifications for yourself.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.uni-bot.xyz/commands/anti_alt/">
+    <link rel="canonical" href="https://docs.uni-bot.xyz/commands/birthdays/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.uni-bot.xyz/commands/anti_alt/">
-    <meta property="og:title" content="Anti Alt System">
-    <meta property="og:description" content="The Anti Alt System is a feature designed to prevent users from creating multiple accounts to circumvent bans or restrictions.">
+    <meta property="og:url" content="https://docs.uni-bot.xyz/commands/birthdays/">
+    <meta property="og:title" content="Birthdays">
+    <meta property="og:description" content="The Birthdays feature enables you to set up birthday notifications for yourself.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.uni-bot.xyz/commands/anti_alt/">
-    <meta property="twitter:title" content="Anti Alt System">
-    <meta property="twitter:description" content="The Anti Alt System is a feature designed to prevent users from creating multiple accounts to circumvent bans or restrictions.">
+    <meta property="twitter:url" content="https://docs.uni-bot.xyz/commands/birthdays/">
+    <meta property="twitter:title" content="Birthdays">
+    <meta property="twitter:description" content="The Birthdays feature enables you to set up birthday notifications for yourself.">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -180,10 +180,10 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="anti-alt-system" class="break-words">
+<doc-anchor-target id="birthdays" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#anti-alt-system">#</doc-anchor-trigger>
-        <span>Anti Alt System</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#birthdays">#</doc-anchor-trigger>
+        <span>Birthdays</span>
     </h1>
 </doc-anchor-target>
 <doc-anchor-target id="overview">
@@ -192,7 +192,7 @@
         <span>Overview</span>
     </h2>
 </doc-anchor-target>
-<p>The Anti Alt System is a feature designed to prevent users from creating multiple accounts to circumvent bans or restrictions. This feature is particularly useful for server owners who aim to maintain the safety and security of their server.</p>
+<p>The Birthdays feature enables you to set up birthday notifications for yourself. This feature is advantageous for members who wish to receive reminders on their birthday.</p>
 <doc-anchor-target id="commands">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#commands">#</doc-anchor-trigger>
@@ -213,9 +213,39 @@
 </thead>
 <tbody>
 <tr>
-<td>antialt<br><code v-pre>Manage Guild</code></td>
-<td><code v-pre>/antialt [config]</code></td>
-<td>Enables you to set up the Anti Alt system in the server or view its configuration.</td>
+<td>birthday set</td>
+<td><code v-pre>/birthday set</code></td>
+<td>Allows you to set your birthday in the bot and receive a notification on your birthday.</td>
+</tr>
+<tr>
+<td>birthday delete</td>
+<td><code v-pre>/birthday delete</code></td>
+<td>Allows you to delete all your stored birthday data.</td>
+</tr>
+<tr>
+<td>birthday check</td>
+<td><code v-pre>/birthday check [member]</code></td>
+<td>Allows you to check your own birthday or that of others.</td>
+</tr>
+<tr>
+<td>birthday common</td>
+<td><code v-pre>/birthday common</code></td>
+<td>Finds users who share the same birthday as you.</td>
+</tr>
+<tr>
+<td>birthday stats</td>
+<td><code v-pre>/birthday stats</code></td>
+<td>Provides the most common, least common, and average birthdays.</td>
+</tr>
+<tr>
+<td>birthday ages</td>
+<td><code v-pre>/birthday ages</code></td>
+<td>Provides the average age, youngest, and oldest user.</td>
+</tr>
+<tr>
+<td>birthday upcoming</td>
+<td><code v-pre>/birthday upcoming [days=10]</code></td>
+<td>Provides upcoming birthdays within a specified number of days.</td>
 </tr>
 </tbody>
 </table>
@@ -234,24 +264,54 @@
 </thead>
 <tbody>
 <tr>
-<td>antialt<br><code v-pre>Manage Guild</code></td>
-<td><code v-pre>/antialt [config]</code></td>
-<td>Enables you to set up the Anti Alt system in the server or view its configuration.</td>
+<td>birthday set</td>
+<td><code v-pre>!birthday set</code></td>
+<td>Allows you to set your birthday in the bot and receive a notification on your birthday.</td>
+</tr>
+<tr>
+<td>birthday delete</td>
+<td><code v-pre>!birthday delete</code></td>
+<td>Allows you to delete all your stored birthday data.</td>
+</tr>
+<tr>
+<td>birthday check</td>
+<td><code v-pre>!birthday check [member]</code></td>
+<td>Allows you to check your own birthday or that of others.</td>
+</tr>
+<tr>
+<td>birthday common</td>
+<td><code v-pre>!birthday common</code></td>
+<td>Finds users who share the same birthday as you.</td>
+</tr>
+<tr>
+<td>birthday stats</td>
+<td><code v-pre>!birthday stats</code></td>
+<td>Provides the most common, least common, and average birthdays.</td>
+</tr>
+<tr>
+<td>birthday ages</td>
+<td><code v-pre>!birthday ages</code></td>
+<td>Provides the average age, youngest, and oldest user.</td>
+</tr>
+<tr>
+<td>birthday upcoming</td>
+<td><code v-pre>!birthday upcoming [days=10]</code></td>
+<td>Provides upcoming birthdays within a specified number of days.</td>
 </tr>
 </tbody>
 </table>
 </div>
 </doc-tab>
 </doc-tabs>
-<doc-anchor-target id="setup-anti-alt-system">
+<doc-anchor-target id="set-your-birthday">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-anti-alt-system">#</doc-anchor-trigger>
-        <span>Setup Anti Alt System</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#set-your-birthday">#</doc-anchor-trigger>
+        <span>Set Your Birthday</span>
     </h3>
 </doc-anchor-target>
 <doc-tabs>
-<doc-tab v-cloak id="antialt">
-<template #title>antialt</template>
+<doc-tab v-cloak id="birthday-set">
+<template #title>birthday set</template>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -261,12 +321,115 @@
 </thead>
 <tbody>
 <tr>
-<td>If you don&#x27;t provide the <code v-pre>config</code> argument, <code v-pre>antialt</code> will display the current configuration of the system, including whether it&#x27;s enabled or disabled.<br/><br/>For the <code v-pre>config</code> argument, the two valid options are <code v-pre>enable</code> or <code v-pre>disable</code>. If you choose <code v-pre>enable</code>, you will be guided through several options to set it up manually.</td>
+<td>This will set your birthday based on DOB, Timezone and that&#x27;s all!<br/><br/>Example being <code v-pre>07/12/1990</code> then <code v-pre>America/Chicago</code>, there are no arguments, you set it up with messages!</td>
 </tr>
 </tbody>
 </table>
 </div>
 </doc-tab>
+<doc-tab v-cloak id="birthday-delete">
+<template #title>birthday delete</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This will delete all your data in birthdays, meaning you won&#x27;t receive anymore notifications after you do it unless you re-setup your birthday!</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
+<doc-tab v-cloak id="birthday-check">
+<template #title>birthday check</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This will show members birthdays, you can get your friends birthday if you wanted!</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
+<doc-tab v-cloak id="birthday-common">
+<template #title>birthday common</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This will get users who share the same birthday as you! You can now see if you are special and see if you are the only one with that birthday so far in the bot!</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
+<doc-tab v-cloak id="birthday-stats">
+<template #title>birthday stats</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This will get the most common, least common and average birthdays, showing all stats about birthdays so you can see whats the most popular if you wanted!</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
+<doc-tab v-cloak id="birthday-ages">
+<template #title>birthday ages</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This will get the average, youngest and oldest user stored in the database, maybe someone is 80 years old? Who knows!</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
+<doc-tab v-cloak id="birthday-upcoming">
+<template #title>birthday upcoming</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This will get all upcoming birthdays based on the argument <code v-pre>days</code> which default is <code v-pre>10</code>, but the max is 30!</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
+</doc-tabs>
 
                                 
                                 <!-- Required only on API pages -->
@@ -276,23 +439,16 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../commands/anime/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../commands/anti_alt/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Anime</span>
+                                                <span class="block mt-1">Anti Alt System</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../commands/birthdays/">
-                                            <span>
-                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Birthdays</span>
-                                            </span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                        </a>
                                     </div>
                                 </nav>
                             </footer>
@@ -333,6 +489,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Anti Alt System", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Birthdays", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
