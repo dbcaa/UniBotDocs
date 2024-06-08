@@ -27,36 +27,35 @@ Each category of commands has their own page, so don't worry about skipping anyt
 
 ## Basic Setup
 
-UniBot in the future will have a dashboard so you can customize it without using commands!
+In the future, UniBot will feature a dashboard, allowing you to customize it without the need for commands!
 
-Now lets get started on how UniBot works and everything in it!
+Let's dive into how UniBot operates and its various features!
 
-Most of this documentation will be using / as the prefix, but remember it does support prefix so don't get confused!
+This documentation primarily uses `/` as the command prefix, but remember, UniBot supports custom prefixes, so don't get confused!
 
 ### Prefix
-By default, UniBot's prefix is `!` as well as `/` slash commands. 
-To change UniBot's prefix you need to run the command `!config` or `/config` in then you can read the embed it sends and you can configure multiple things inside of that one command!
+By default, UniBot's command prefix is `!`, and it also supports `/` slash commands.
+To change UniBot's prefix, execute the `!config` or `/config` command. The bot will then send an embed message that you can read and use to configure various settings!
 
 ### Configurations
 
-Inside of UniBot, there are multiple commands to configure multiple things, but the main command to configure almost everything is `/config`.
+UniBot offers multiple commands for configuring different aspects, but the primary command for most configurations is `/config`.
 
-For all of these setup features, you will need admin or be the owner of the server!
-
+To access these setup features, you must either be an admin or the server owner!
 
 ### Modlogs
 
-Modlogs will only log things UniBot does, this will NOT log what other bots do. To setup modlogs inside of UniBot, just run `/config`, then click `Setup Configurations`, then click `Mod Channel`, after you have done that, it will ask for what channel, just mention the channel you are wanting then UniBot will set it to be that channel!
+Modlogs only track actions performed by UniBot, not those performed by other bots. To set up modlogs with UniBot, run the `/config` command, click on `Setup Configurations`, and then click on `Mod Channel`. After that, it will prompt you to specify a channel. Simply mention the desired channel, and UniBot will set it as the modlog channel!
 
 ### Logs
 
-UniBot has a logging system to log everything that happens inside of your discord server! By default UniBot will have this disabled. To enable it you can do `/config`, then click `Setup Logging`, it explains what each thing is. Just like config, you can just click a button read what it does, then click the button to set it, it will ask for which channel, you just mention the channel and it sets it to be that channel for that logging category only! To reset the config, just do the previous steps but this time click `Config` and it will have a reset button in there!
+UniBot features a logging system that records all activities within your Discord server! By default, this feature is disabled. To enable it, run the `/config` command, click on `Setup Logging`, and follow the instructions. Just like with the config command, you can click a button, read its function, and then click the button to set it. It will ask for a channel, and once you mention the channel, it will set that channel for that specific logging category! To reset the config, repeat the previous steps but this time click on `Config`, and you'll find a reset button there!
 
 ### Join Role
 
-UniBot has a join role feature, when a member joins they are given a role! You can set this up with using `/config`, then click `Setup Configurations` and then click `Join Role` then mention the role you want to be the join role!
+UniBot offers a join role feature, which assigns a role to members when they join! You can set this up by using the `/config` command, clicking on `Setup Configurations`, and then clicking on `Join Role`. Then, mention the role you want to assign to new members!
 
 !!!danger Reminder
-The bot cannot assign a role to a member if it lacks the `Manage Roles` permission. Additionally, the bot cannot assign a role that is higher in the hierarchy than its own highest role. Ensure that UniBot's role is higher than the role you wish to assign to others, and that UniBot has the `Manage Roles` permission.
+The bot is unable to assign a role to a member if it doesn't have the `Manage Roles` permission. Furthermore, it cannot assign a role that is higher in the hierarchy than its own highest role. Make sure that UniBot's role is higher than the role you want to assign to others, and that UniBot has the `Manage Roles` permission.
 !!!
 
