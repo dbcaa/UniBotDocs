@@ -1,5 +1,5 @@
 ---
-icon: /static/test.png
+icon: /static/anime-icon.png
 order: 900
 ---
 # Anime
