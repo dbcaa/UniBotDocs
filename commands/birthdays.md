@@ -1,5 +1,5 @@
 ---
-icon: /static/birthday-icon.png
+icon: /static/birthday-icon.svg
 order: 800
 ---
 # Birthdays
