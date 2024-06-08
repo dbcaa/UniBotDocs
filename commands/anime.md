@@ -1,5 +1,5 @@
 ---
-icon: https://www.vectorlogo.zone/logos/twitch/twitch-icon.svg
+icon: /static/anime-icon.png
 order: 900
 ---
 # Anime

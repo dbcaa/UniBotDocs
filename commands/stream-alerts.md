@@ -1,5 +1,5 @@
 ---
-icon: https://www.vectorlogo.zone/logos/twitch/twitch-icon.svg
+icon: /static/twitch-icon.svg
 order: 1000
 ---
 # Stream Alerts
