@@ -7,7 +7,7 @@ order: 1000
 UniBot is a versatile, multi-functional Discord bot that caters to all your needs! It's a comprehensive solution for all your Discord bot requirements.
 
 ## Documentation
-!!!info
+!!!danger
 Please note that this documentation is still under development, so some pages might be incomplete or absent. For the **best viewing experience**, we **recommend** accessing these documents on a **desktop or laptop**.
 !!!
 To get started with UniBot, check out our [Getting Started](/guides/getting-started) guide!
