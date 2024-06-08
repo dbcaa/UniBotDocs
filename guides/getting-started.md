@@ -4,25 +4,25 @@ order: 1000
 ---
 # Getting Started
 !!!warning
-Do not actually type out `<` `>` `[` `]` ect.
+Do not actually type out `<` `>` `[` `]`, etc.
 !!!
 
 !!!info
-The user permissions required to run certain commands will be under the command name.
+The user permissions required to execute certain commands will be listed under the command name.
 Example:
 
-/ban 
+/ban
 
 `Ban Members`
 
-Each category of commands has their own page, so don't worry about skipping anything!
+Each category of commands has its own page, so you won't miss anything!
 
 
-| Syntax                        | Definition                                                                                               |
-|-------------------------------|----------------------------------------------------------------------------------------------------------|
-| `<example>`                   | This argument is required.                                                                               |
-| `[example]`                   | This argument is optional.                                                                               |
-| `[example='No reason given']` | This argument is optional, but has a default value. In this case the default value is 'No reason given'. |
+| Syntax                        | Definition                                                                                                |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------|
+| `<example>`                   | This argument is required.                                                                                |
+| `[example]`                   | This argument is optional.                                                                                |
+| `[example='No reason given']` | This argument is optional, but has a default value. In this case, the default value is 'No reason given'. |
 !!!
 
 
@@ -30,7 +30,7 @@ Each category of commands has their own page, so don't worry about skipping anyt
 
 In the future, UniBot will feature a dashboard, allowing you to customize it without the need for commands!
 
-Let's dive into how UniBot operates and its various features!
+Let's delve into how UniBot operates and its various features!
 
 This documentation primarily uses `/` as the command prefix, but remember, UniBot supports custom prefixes, so don't get confused!
 
@@ -57,6 +57,5 @@ UniBot features a logging system that records all activities within your Discord
 UniBot offers a join role feature, which assigns a role to members when they join! You can set this up by using the `/config` command, clicking on `Setup Configurations`, and then clicking on `Join Role`. Then, mention the role you want to assign to new members!
 
 !!!danger Reminder
-The bot is unable to assign a role to a member if it doesn't have the `Manage Roles` permission. Furthermore, it cannot assign a role that is higher in the hierarchy than its own highest role. Make sure that UniBot's role is higher than the role you want to assign to others, and that UniBot has the `Manage Roles` permission.
+The bot cannot assign a role to a member if it doesn't have the `Manage Roles` permission. Furthermore, it cannot assign a role that is higher in the hierarchy than its own highest role. Ensure that UniBot's role is higher than the role you want to assign to others, and that UniBot has the `Manage Roles` permission.
 !!!
-
