@@ -9,7 +9,7 @@ A fully customizable, multi-purpose Discord bot. It has everything you will need
 
 Check out [Getting Started](/guides/getting-started) to get started with UniBot!
 
-# Features
+## Features
 
 - **Welcome and Leave Messages**
 - **Moderation**
@@ -22,7 +22,7 @@ Check out [Getting Started](/guides/getting-started) to get started with UniBot!
 - **Utility Commands**
 - **And much more!**
 
-# Support
+## Support
 
 Members and Staff can help you out in the [UniBot Official](https://discord.gg/3Qh3v3Z) Discord server!
 If you need to email us about anything, you can find all of our emails [here](https://uni-bot.xyz/staff).
