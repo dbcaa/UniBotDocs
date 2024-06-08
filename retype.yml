@@ -1,6 +1,6 @@
 input: .
 output: .retype
-url: example.com # Add your website here
+url: docs.uni-bot.xyz # Add your website here
 branding:
   title: UniBot Docs
   label: Docs
