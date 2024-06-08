@@ -109,6 +109,12 @@ order: 900
 | Description                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------------------------------|
 | Logs related to voice channel activities, including join voice channel, move between voice channels, and leave voice channel. |
+
++++ Config
+
+| Description                                                                                                                                                                                                   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| This shows the full config for logging, you are also able to reset the config, this **DELETES** all data related to the config in that server. Only the `Setup Logging` will be reset, not the other configs! |
 +++
 
 ### Setup Embed Fix
