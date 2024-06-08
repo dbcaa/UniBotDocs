@@ -4,8 +4,12 @@ url: example.com # Add your website here
 branding:
   title: UniBot Docs
   label: Docs
-#links:
-#  - text: Getting Started
-#    link: https://retype.com/guides/getting-started/
+links:
+  - text: Home
+    link: https://uni-bot.xyz
+  - text: Invite
+    link: https://discord.com/oauth2/authorize?client_id=1156134562418663585&permissions=437549658110&redirect_uri=https%3A%2F%2Funi-bot.xyz%2Fthanks&response_type=code&scope=identify%20applications.commands%20bot
+  - text: Discord Server
+    link: https://discord.gg/unibot
 footer:
   copyright: "&copy; Copyright . All rights reserved."
