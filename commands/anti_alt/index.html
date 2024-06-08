@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.771150972986">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.771151428364">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Anti Alt System</title>
     <meta name="title" content="Anti Alt System">
+    <meta name="description" content="The Anti Alt System is a feature that allows you to prevent users from creating multiple accounts to bypass bans or restrictions.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.uni-bot.xyz/commands/anti_alt/">
@@ -19,20 +20,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.uni-bot.xyz/commands/anti_alt/">
     <meta property="og:title" content="Anti Alt System">
+    <meta property="og:description" content="The Anti Alt System is a feature that allows you to prevent users from creating multiple accounts to bypass bans or restrictions.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.uni-bot.xyz/commands/anti_alt/">
     <meta property="twitter:title" content="Anti Alt System">
+    <meta property="twitter:description" content="The Anti Alt System is a feature that allows you to prevent users from creating multiple accounts to bypass bans or restrictions.">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/unibot-noback_fix.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.771150972986" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.771151428364" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.771150972986" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.771151428364" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.771150972986" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.771151428364" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -183,12 +186,87 @@
         <span>Anti Alt System</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="overview">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#overview">#</doc-anchor-trigger>
+        <span>Overview</span>
+    </h2>
+</doc-anchor-target>
+<p>The Anti Alt System is a feature that allows you to prevent users from creating multiple accounts to bypass bans or restrictions. This feature is beneficial for server owners who want to keep their server safe and secure.</p>
 <doc-anchor-target id="commands">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#commands">#</doc-anchor-trigger>
         <span>Commands</span>
     </h2>
 </doc-anchor-target>
+<doc-tabs>
+<doc-tab v-cloak id="slash">
+<template #title>Slash</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Name</th>
+<th>Example</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antialt<br><code v-pre>Manage Guild</code></td>
+<td><code v-pre>/antialt [config]</code></td>
+<td>Allows you to setup Anti Alt system in the server or see the config!</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
+<doc-tab v-cloak id="prefix">
+<template #title>Prefix</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Name</th>
+<th>Example</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>antialt<br><code v-pre>Manage Guild</code></td>
+<td><code v-pre>/antialt [config]</code></td>
+<td>Allows you to setup Anti Alt system in the server or see the config!</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
+</doc-tabs>
+<doc-anchor-target id="setup-anti-alt-system">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-anti-alt-system">#</doc-anchor-trigger>
+        <span>Setup Anti Alt System</span>
+    </h3>
+</doc-anchor-target>
+<doc-tabs>
+<doc-tab v-cloak id="antialt">
+<template #title>antialt</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Antialt will show you the current config of the system if its enabled/disabled if you don&#x27;t put the <code v-pre>config</code> argument!<br/><br/>Now for the <code v-pre>config</code> the two valid options are <code v-pre>enable</code> or <code v-pre>disable</code> which will do both, if you do enable, you will go through multiple options where you set it up manually!</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
 
                                 
                                 <!-- Required only on API pages -->
