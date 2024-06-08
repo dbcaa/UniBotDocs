@@ -1,10 +1,10 @@
 input: .
 output: .retype
-url: docs.uni-bot.xyz # Add your website here
+url: docs.uni-bot.xyz
 branding:
   title: UniBot Docs
   label: Docs
-  logo: https://images.uni-bot.xyz/UniBot/UniBot-WITH-BACK.png
+  logo: /static/Unibot-NOBACK_fix
 links:
   - text: Home
     link: https://uni-bot.xyz
