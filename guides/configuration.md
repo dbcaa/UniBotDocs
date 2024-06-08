@@ -79,3 +79,29 @@ order: 900
 +++
 
 ### Setup Logging
+
+
++++ Message Events
+
+| Description                                                                                 |
+|---------------------------------------------------------------------------------------------|
+| Logs related to messages, including deleted messages, edited messages, and Discord invites. |
+
++++ Server Events
+
+| Description                                                                                                                                                                   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Logs related to server changes, including channel creation, channel updates, channel deletion, role creation, role updates, role deletion, server updates, and emoji changes. |
+
++++ Member Events
+
+| Description                                                                                           |
+|-------------------------------------------------------------------------------------------------------|
+| Logs related to member changes, including role updates, name changes, member bans, and member unbans. |
+
++++ Voice Events
+
+| Description                                                                                                                   |
+|-------------------------------------------------------------------------------------------------------------------------------|
+| Logs related to voice channel activities, including join voice channel, move between voice channels, and leave voice channel. |
++++
