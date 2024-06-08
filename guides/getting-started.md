@@ -22,20 +22,7 @@ Each category of commands has their own page, so don't worry about skipping anyt
 | `<example>`                   | This argument is required.                                                                               |
 | `[example]`                   | This argument is optional.                                                                               |
 | `[example='No reason given']` | This argument is optional, but has a default value. In this case the default value is 'No reason given'. |
-
-||| Syntax
-`<example>`
-
-`[example]`
-
-`[example='No reason given']`
-||| Definition
-This argument is required.
-
-This argument is optional.
-
-This argument is optional, but has a default value. In this case the default value is 'No reason given'.
-|||
+!!!
 
 
 ## Basic Setup
