@@ -9,26 +9,24 @@
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Configuration</title>
-    <meta name="title" content="Configuration">
-    <meta name="description" content="Name">
+    <title>Stream Alerts</title>
+    <meta name="title" content="Stream Alerts">
+    <meta name="description" content="Stream Alerts is a feature that allows you to set up alerts for when a streamer goes live on Twitch.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.uni-bot.xyz/guides/configuration/">
+    <link rel="canonical" href="https://docs.uni-bot.xyz/commands/stream-alerts/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.uni-bot.xyz/guides/configuration/">
-    <meta property="og:title" content="Configuration">
-    <meta property="og:description" content="Name">
-    <meta property="og:image" content="https://docs.uni-bot.xyz/static/configcommand.png">
+    <meta property="og:url" content="https://docs.uni-bot.xyz/commands/stream-alerts/">
+    <meta property="og:title" content="Stream Alerts">
+    <meta property="og:description" content="Stream Alerts is a feature that allows you to set up alerts for when a streamer goes live on Twitch.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.uni-bot.xyz/guides/configuration/">
-    <meta property="twitter:title" content="Configuration">
-    <meta property="twitter:description" content="Name">
-    <meta property="twitter:image" content="https://docs.uni-bot.xyz/static/configcommand.png">
+    <meta property="twitter:url" content="https://docs.uni-bot.xyz/commands/stream-alerts/">
+    <meta property="twitter:title" content="Stream Alerts">
+    <meta property="twitter:description" content="Stream Alerts is a feature that allows you to set up alerts for when a streamer goes live on Twitch.">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -182,16 +180,23 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="configuration" class="break-words">
+<doc-anchor-target id="stream-alerts" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#configuration">#</doc-anchor-trigger>
-        <span>Configuration</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#stream-alerts">#</doc-anchor-trigger>
+        <span>Stream Alerts</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="config">
+<doc-anchor-target id="overview">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#config">#</doc-anchor-trigger>
-        <span>Config</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#overview">#</doc-anchor-trigger>
+        <span>Overview</span>
+    </h2>
+</doc-anchor-target>
+<p>Stream Alerts is a feature that allows you to set up alerts for when a streamer goes live on Twitch. This feature is beneficial for streamers who want to notify their community when they start streaming.</p>
+<doc-anchor-target id="commands">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commands">#</doc-anchor-trigger>
+        <span>Commands</span>
     </h2>
 </doc-anchor-target>
 <doc-tabs>
@@ -208,9 +213,19 @@
 </thead>
 <tbody>
 <tr>
-<td>config<br><code v-pre>Administrator</code></td>
-<td><code v-pre>/config</code></td>
-<td>Allows you to customize UniBot to suit your server&#x27;s needs.</td>
+<td>twitch add<br><code v-pre>Manage Guild</code></td>
+<td><code v-pre>/twtich add</code></td>
+<td>Allows you to add streamers to the notifications list!</td>
+</tr>
+<tr>
+<td>twitch list</td>
+<td><code v-pre>/twitch list</code></td>
+<td>Allows you to view the list of streamers in the notifications list!</td>
+</tr>
+<tr>
+<td>twitch remove<br><code v-pre>Manage Guild</code></td>
+<td><code v-pre>/twitch remove</code></td>
+<td>Allows you to remove streamers from the notifications list!</td>
 </tr>
 </tbody>
 </table>
@@ -229,477 +244,19 @@
 </thead>
 <tbody>
 <tr>
-<td>config<br><code v-pre>Administrator</code></td>
-<td><code v-pre>!config</code></td>
-<td>Allows you to customize UniBot to suit your server&#x27;s needs.</td>
+<td>twitch add<br><code v-pre>Manage Guild</code></td>
+<td><code v-pre>!twtich add</code></td>
+<td>Allows you to add streamers to the notifications list!</td>
 </tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-</doc-tabs>
-<p><figure class="content-center">
-    <img src="../../static/configcommand.png" alt="Config Command Example">
-    <figcaption class="caption">Config Command Example</figcaption>
-</figure>
-</p>
-<doc-anchor-target id="setup-configurations">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-configurations">#</doc-anchor-trigger>
-        <span>Setup Configurations</span>
-    </h3>
-</doc-anchor-target>
-<doc-tabs>
-<doc-tab v-cloak id="set-prefix">
-<template #title>Set Prefix</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
 <tr>
-<th>Description</th>
+<td>twitch list</td>
+<td><code v-pre>!twitch list</code></td>
+<td>Allows you to view the list of streamers in the notifications list!</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td>Allows you to set a custom prefix for the bot in your current server.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="mod-channel">
-<template #title>Mod Channel</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Mod logs record all actions performed by UniBot as a result of a command, primarily moderation commands.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="welcome-channel">
-<template #title>Welcome Channel</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The welcome channel is where all welcome embeds/pictures will be sent when a member joins the guild.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="leave-channel">
-<template #title>Leave Channel</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The leave channel is where all leave embeds/pictures will be sent when a member leaves the guild.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="boost-channel">
-<template #title>Boost Channel</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The boost channel sends an embed every time someone boosts your server.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="level-up-channel">
-<template #title>Level Up Channel</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The level up channel is where all level-up embeds will be sent. If left <code v-pre>Not Set</code>, all embeds will be sent to the current channel where the user leveled up.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="levels-enabled">
-<template #title>Levels Enabled</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Levels are disabled by default, but you can enable them! This is a level system.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="join-role">
-<template #title>Join Role</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The join role is assigned to a member when they join the guild.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="nsfw-enabled">
-<template #title>NSFW Enabled</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This enables or disables NSFW commands in the bot. By default, it is disabled.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="reset-configurations">
-<template #title>Reset Configurations</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This <strong>DELETES</strong> all data related to the config in that server. Only the <code v-pre>Setup Configurations</code> will be reset, not the other configs.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-</doc-tabs>
-<p><figure class="content-center">
-    <img src="../../static/serversetup.png" alt="Server Setup Example">
-    <figcaption class="caption">Server Setup Example</figcaption>
-</figure>
-</p>
-<doc-anchor-target id="setup-logging">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-logging">#</doc-anchor-trigger>
-        <span>Setup Logging</span>
-    </h3>
-</doc-anchor-target>
-<doc-tabs>
-<doc-tab v-cloak id="message-events">
-<template #title>Message Events</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Logs related to messages, including deleted messages, edited messages, and Discord invites.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="server-events">
-<template #title>Server Events</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Logs related to server changes, including channel creation, channel updates, channel deletion, role creation, role updates, role deletion, server updates, and emoji changes.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="member-events">
-<template #title>Member Events</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Logs related to member changes, including role updates, name changes, member bans, and member unbans.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="voice-events">
-<template #title>Voice Events</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Logs related to voice channel activities, including joining a voice channel, moving between voice channels, and leaving a voice channel.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="config">
-<template #title>Config</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This displays the full config for logging. You can also reset the config. This <strong>DELETES</strong> all data related to the config in that server. Only the <code v-pre>Setup Logging</code> will be reset, not the other configs.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-</doc-tabs>
-<p><figure class="content-center">
-    <img src="../../static/loggingsetup.png" alt="Logging Setup Example">
-    <figcaption class="caption">Logging Setup Example</figcaption>
-</figure>
-</p>
-<doc-anchor-target id="setup-embed-fix">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-embed-fix">#</doc-anchor-trigger>
-        <span>Setup Embed Fix</span>
-    </h3>
-</doc-anchor-target>
-<doc-tabs>
-<doc-tab v-cloak id="webhook-reply">
-<template #title>Webhook Reply</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This enables/disables whether the message will be deleted or if the bot will just create a thread! The default value is <code v-pre>Disabled</code>.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="twitter-fix">
-<template #title>Twitter Fix</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This enables/disables whether Twitter links get fixed! The default value is <code v-pre>Disabled</code>.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="x-fix">
-<template #title>X Fix</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This enables/disables whether X links get fixed! The default value is <code v-pre>Disabled</code>.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="pixiv-fix">
-<template #title>Pixiv Fix</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This enables/disables whether Pixiv links get fixed! The default value is <code v-pre>Disabled</code>.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="tiktok-fix">
-<template #title>TikTok Fix</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This enables/disables whether TikTok links get fixed! The default value is <code v-pre>Disabled</code>.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="reddit-fix">
-<template #title>Reddit Fix</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This enables/disables whether Reddit links get fixed! The default value is <code v-pre>Disabled</code>.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="instagram-fix">
-<template #title>Instagram Fix</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This enables/disables whether Instagram links get fixed! The default value is <code v-pre>Disabled</code>.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-</doc-tabs>
-<p><figure class="content-center">
-    <img src="../../static/embedfixsetup.png" alt="Embed Fix Setup Example">
-    <figcaption class="caption">Embed Fix Setup Example</figcaption>
-</figure>
-</p>
-<doc-anchor-target id="setup-welcome-configuration">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-welcome-configuration">#</doc-anchor-trigger>
-        <span>Setup Welcome Configuration</span>
-    </h3>
-</doc-anchor-target>
-<doc-tabs>
-<doc-tab v-cloak id="coming-soon">
-<template #title>Coming Soon!</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This feature is coming soon!</td>
-</tr>
-</tbody>
-</table>
-</div>
-</doc-tab>
-</doc-tabs>
-<doc-anchor-target id="setup-leave-configuration">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-leave-configuration">#</doc-anchor-trigger>
-        <span>Setup Leave Configuration</span>
-    </h3>
-</doc-anchor-target>
-<doc-tabs>
-<doc-tab v-cloak id="coming-soon">
-<template #title>Coming Soon!</template>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>This feature is coming soon!</td>
+<td>twitch remove<br><code v-pre>Manage Guild</code></td>
+<td><code v-pre>!twitch remove</code></td>
+<td>Allows you to remove streamers from the notifications list!</td>
 </tr>
 </tbody>
 </table>
@@ -715,23 +272,16 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../guides/getting-started/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../guides/configuration/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Getting Started</span>
+                                                <span class="block mt-1">Configuration</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../commands/stream-alerts/">
-                                            <span>
-                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Stream Alerts</span>
-                                            </span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                        </a>
                                     </div>
                                 </nav>
                             </footer>
@@ -772,6 +322,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Configuration", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Stream Alerts", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
