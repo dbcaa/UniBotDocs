@@ -13,4 +13,7 @@ links:
   - text: Discord Server
     link: https://discord.gg/unibot
 footer:
-  copyright: "&copy; Copyright . All rights reserved."
+  copyright: "&copy; Copyright UniBot 2023-2024. All rights reserved."
+
+favicon: /static/UniBot-WITHBACK.jpg
+
