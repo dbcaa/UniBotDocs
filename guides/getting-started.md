@@ -1,6 +1,7 @@
 ---
 icon: rocket
 ---
+# Getting Started
 !!!warning
 Do not actually type out < > [ ] ect.
 !!!
@@ -12,3 +13,21 @@ Example:
 /ban 
 
 `Ban Members`
+
+Each category of commands has their own page, so don't worry about skipping anything!
+
+||| Syntax
+`<example>`
+`[example]`
+`[example='No reason given']`
+||| Definition
+This argument is required.
+This argument is optional.
+This argument is optional, but has a default value. In this case the default value is 'No reason given'.
+|||
+
+
+## Basic Setup
+
+
+
