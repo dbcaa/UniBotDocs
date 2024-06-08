@@ -6,28 +6,27 @@ order: 800
 
 ## Overview
 
-The Anti Alt System is a feature that allows you to prevent users from creating multiple accounts to bypass bans or restrictions. This feature is beneficial for server owners who want to keep their server safe and secure.
+The Anti Alt System is a feature designed to prevent users from creating multiple accounts to circumvent bans or restrictions. This feature is particularly useful for server owners who aim to maintain the safety and security of their server.
 
 ## Commands
 
 +++ Slash
 
-| Name                      | Example             | Usage                                                                |
-|---------------------------|---------------------|----------------------------------------------------------------------|
-| antialt<br>`Manage Guild` | `/antialt [config]` | Allows you to setup Anti Alt system in the server or see the config! |
+| Name                      | Example             | Usage                                                                              |
+|---------------------------|---------------------|------------------------------------------------------------------------------------|
+| antialt<br>`Manage Guild` | `/antialt [config]` | Enables you to set up the Anti Alt system in the server or view its configuration. |
 
 +++ Prefix
 
-| Name                      | Example             | Usage                                                                |
-|---------------------------|---------------------|----------------------------------------------------------------------|
-| antialt<br>`Manage Guild` | `/antialt [config]` | Allows you to setup Anti Alt system in the server or see the config! |
+| Name                      | Example             | Usage                                                                              |
+|---------------------------|---------------------|------------------------------------------------------------------------------------|
+| antialt<br>`Manage Guild` | `/antialt [config]` | Enables you to set up the Anti Alt system in the server or view its configuration. |
 +++
 
 ### Setup Anti Alt System
 
-+++ antialt 
++++ antialt
 
-| Description                                                                                                                                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Antialt will show you the current config of the system if its enabled/disabled if you don't put the `config` argument!<br/><br/>Now for the `config` the two valid options are `enable` or `disable` which will do both, if you do enable, you will go through multiple options where you set it up manually! |
-
+| Description                                                                                                                                                                                                                                                                                                                             |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| If you don't provide the `config` argument, `antialt` will display the current configuration of the system, including whether it's enabled or disabled.<br/><br/>For the `config` argument, the two valid options are `enable` or `disable`. If you choose `enable`, you will be guided through several options to set it up manually.  |
