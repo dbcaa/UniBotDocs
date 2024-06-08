@@ -7,6 +7,10 @@ order: 900
 
 ## Commands
 
+!!!info
+Anime commands do not go into descriptions, as they are all the same. The only difference is the name of the command. Below are the names of the commands and their usage.
+!!!
+
 +++ Slash
 
 | Name           | Example                    | Usage                                                      |
@@ -67,144 +71,4 @@ order: 900
 | anime blush    | `!anime blush [member]`    | Blush at another mentioned member, or blush by yourself.   |
 | anime poke     | `!anime poke <member>`     | Poke another mentioned member.                             |
 +++
-
-
-+++ Anime Bite
-
-| Description                                                         |
-|---------------------------------------------------------------------|
-| Bite another mentioned member, this requires the `member` argument. |
-
-+++ Anime Slap
-
-| Description                                                         |
-|---------------------------------------------------------------------|
-| Slap another mentioned member, this requires the `member` argument. |
-
-+++ Anime Lick
-
-| Description                                                         |
-|---------------------------------------------------------------------|
-| Lick another mentioned member, this requires the `member` argument. |
-
-+++ Anime Cuddle
-
-| Description                                                           |
-|-----------------------------------------------------------------------|
-| Cuddle another mentioned member, this requires the `member` argument. |
-
-+++ Anime Hug
-
-| Description                                                        |
-|--------------------------------------------------------------------|
-| Hug another mentioned member, this requires the `member` argument. |
-
-+++ Anime Glomp
-
-| Description                                                          |
-|----------------------------------------------------------------------|
-| Glomp another mentioned member, this requires the `member` argument. |
-
-+++ Anime Handhold
-
-| Description                                                             |
-|-------------------------------------------------------------------------|
-| Handhold another mentioned member, this requires the `member` argument. |
-
-+++ Anime Pat
-
-| Description                                                        |
-|--------------------------------------------------------------------|
-| Pat another mentioned member, this requires the `member` argument. |
-
-+++ Anime Dance
-
-| Description                                                        |
-|--------------------------------------------------------------------|
-| Dance another mentioned member, the `member` argument is optional. |
-
-+++ Anime Smile
-
-| Description                                                        |
-|--------------------------------------------------------------------|
-| Smile another mentioned member, the `member` argument is optional. |
-
-+++ Anime Happy
-
-| Description                                                   |
-|---------------------------------------------------------------|
-| Happy another mentioned member, no argument for this command. |
-
-+++ Anime Cry
-
-| Description                                                        |
-|--------------------------------------------------------------------|
-| Cry another mentioned member, this requires the `member` argument. |
-
-+++ Anime Kill
-
-| Description                                                         |
-|---------------------------------------------------------------------|
-| Kill another mentioned member, this requires the `member` argument. |
-
-+++ Anime Wink
-
-| Description                                                         |
-|---------------------------------------------------------------------|
-| Wink another mentioned member, this requires the `member` argument. |
-
-+++ Anime Smug
-
-| Description                                                         |
-|---------------------------------------------------------------------|
-| Smug another mentioned member, this requires the `member` argument. |
-
-+++ Anime Cringe
-
-| Description                                                           |
-|-----------------------------------------------------------------------|
-| Cringe another mentioned member, this requires the `member` argument. |
-
-+++ Anime Wave
-
-| Description                                                         |
-|---------------------------------------------------------------------|
-| Wave another mentioned member, this requires the `member` argument. |
-
-+++ Anime Kiss
-
-| Description                                                         |
-|---------------------------------------------------------------------|
-| Kiss another mentioned member, this requires the `member` argument. |
-
-+++ Anime Strike
-
-| Description                                                           |
-|-----------------------------------------------------------------------|
-| Strike another mentioned member, this requires the `member` argument. |
-
-+++ Anime Bully
-
-| Description                                                          |
-|----------------------------------------------------------------------|
-| Bully another mentioned member, this requires the `member` argument. |
-
-+++ Anime Highfive
-
-| Description                                                             |
-|-------------------------------------------------------------------------|
-| Highfive another mentioned member, this requires the `member` argument. |
-
-+++ Anime Blush
-
-| Description                                                        |
-|--------------------------------------------------------------------|
-| Blush another mentioned member, the `member` argument is optional. |
-
-+++ Anime Poke
-
-| Description                                                         |
-|---------------------------------------------------------------------|
-| Poke another mentioned member, this requires the `member` argument. |
-
 
