@@ -6,7 +6,7 @@ order: 900
 
 ## Overview
 
-The Anime feature allows you to interact with other members in a fun and cute way. You can use the commands to show your affection, anger, or just to have fun with other members.
+The Anime feature allows you to interact with other members in a fun and cute way! You can use the commands to show your affection, anger, or just to have fun with other members.
 
 
 ## Commands
